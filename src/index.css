@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  background-image: url("wallpaperflare.com_wallpaper\(27\).jpg");
+  background-size: 100%;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.weather {
+  position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  width: 20%;
+  background-color: black;
+  color: rgb(0, 255, 30);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-color: chartreuse;
+  margin-bottom: 3%;
+  position: relative;
+  left: 2.5%;
+  text-align: center;
+}
+
+.B {
+  border: 0;
+  line-height: 1.9;
+  padding: 0 15px;
+  font-size: 70%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  margin-left: 1%;
+  position: relative;
+  left: 3%;
+}
+
+.B:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.B:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.Title {
+  color: rgb(255, 238, 0);
+  text-shadow: 20px 10px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+
+.error {
+  position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.foot{
+  color:white;
+  text-decoration: solid;
+  background-color: #000;
+  position: relative;
+  bottom: -150%;
+}
+
+@media (max-width: 412px) {
+  body {
+    margin: 0;
+    background-image: url("wallpaperflare.com_wallpaper\(31\).jpg");
+    background-size: 400%;
+    background-position-x: 55%;
+
+  }
+  .Title {
+    color: rgb(255, 238, 0);
+    text-shadow: 20px 10px 4px rgba(0, 0, 0);
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    }
+  .box {
+    width: 50%;
+    background-color: black;
+    color: rgb(0, 255, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: chartreuse;
+    margin-bottom: 30%;
+    position: relative;
+    left: 2.5%;
+    text-align: center;
+
+  }
+  
+  .B {
+    border: 0;
+    line-height: 1.9;
+    padding: 0 15px;
+    font-size: 70%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    margin-left: 1%;
+    position: relative;
+    left: 3%;
+  }
+  .weather {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+@media (min-width: 413px) and (max-width: 1023px) {
+  body {
+    margin: 0;
+    background-image: url("wallpaperflare.com_wallpaper\(27\).jpg");
+    background-size: 190%;
+  }
+  .Title {
+    color: rgb(255, 238, 0);
+    text-shadow: 20px 10px 4px rgba(0, 0, 0);
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    }
+  .box {
+    width: 50%;
+    background-color: black;
+    color: rgb(0, 255, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: chartreuse;
+    margin-bottom: 10%;
+    position: relative;
+    left: 2.5%;
+    text-align: center;
+
+  }
+  
+  .B {
+    border: 0;
+    line-height: 1.9;
+    padding: 0 15px;
+    font-size: 70%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    margin-left: 1%;
+    position: relative;
+    left: 3%;
+  }
+  .weather {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1317px){
+  body {
+    margin: 0;
+    background-image: url("wallpaperflare.com_wallpaper\(27\).jpg");
+    background-size: 100%;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .Title {
+    color: rgb(255, 238, 0);
+    text-shadow: 20px 10px 4px rgba(0, 0, 0);
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    }
+  .box {
+    width: 50%;
+    background-color: black;
+    color: rgb(0, 255, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: chartreuse;
+    margin-bottom: 30%;
+    position: relative;
+    left: 2.5%;
+    text-align: center;
+
+  }
+  
+  .B {
+    border: 0;
+    line-height: 1.9;
+    padding: 0 15px;
+    font-size: 70%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    margin-left: 1%;
+    position: relative;
+    left: 3%;
+  }
+  .weather {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}

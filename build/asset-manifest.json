@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d58b604f.css",
+    "main.js": "/static/js/main.887a010a.js",
+    "static/media/wallpaperflare.com_wallpaper(27).jpg": "/static/media/wallpaperflare.com_wallpaper(27).f8b4bfa2b5cff9dacabb.jpg",
+    "static/media/wallpaperflare.com_wallpaper(31).jpg": "/static/media/wallpaperflare.com_wallpaper(31).cc506adea430294c4d3a.jpg",
+    "index.html": "/index.html",
+    "main.d58b604f.css.map": "/static/css/main.d58b604f.css.map",
+    "main.887a010a.js.map": "/static/js/main.887a010a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d58b604f.css",
+    "static/js/main.887a010a.js"
+  ]
+}
